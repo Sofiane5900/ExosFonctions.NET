@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Dynamic;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -24,11 +25,27 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //Soustraction(20, 50);
 
             // exo 03
-            void WhatHours(string heure = "12h00")
+            //void WhatHours(string heure = "12h00")
+            //{
+            //    Console.WriteLine($"Il est {heure}");
+            //}
+            //WhatHours("14h00");
+
+            // exo 04
+            int count = 0;
+            void CompterLettreA(string chaine)
             {
-                Console.WriteLine($"Il est {heure}");
+                for (int i = 0; i < chaine.Length; i++)
+                {
+                    if (chaine[i] == 'a' || chaine[i] == 'A')
+                    {
+                        count++;
+                    }
+                }
             }
-            WhatHours("14h00");
+            CompterLettreA("Apprenti");
+            Console.WriteLine($"Il y a {count} fois la lettre A dans le mot Apprenti");
+
         }
     }
 }
