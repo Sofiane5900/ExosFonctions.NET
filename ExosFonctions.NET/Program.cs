@@ -32,20 +32,32 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //WhatHours("14h00");
 
             // exo 04
-            int count = 0;
-            void CompterLettreA(string chaine)
-            {
-                for (int i = 0; i < chaine.Length; i++)
-                {
-                    if (chaine[i] == 'a' || chaine[i] == 'A')
-                    {
-                        count++;
-                    }
-                }
-            }
-            CompterLettreA("Apprenti");
-            Console.WriteLine($"Il y a {count} fois la lettre A dans le mot Apprenti");
+            //int count = 0; // j'intialise une var count
+            //void CompterLettreA(string chaine) // Je crée une fonction avec une string en paramétre
+            //{
+            //    for (int i = 0; i < chaine.Length; i++) // Tant que mon index n'as pas atteint la longueur de mon mot, alors je l'incrémente
+            //    {
+            //        if (chaine[i] == 'a' || chaine[i] == 'A') // Mon index parcours mon mot et si il y a 'a' OU 'A' alors j'incrémene count
+            //        {
+            //            count++;
+            //        }
+            //    }
+            //}
+            //CompterLettreA("Apprenti"); // Je donne un mot a ma fonction
+            //Console.WriteLine($"Il y a {count} fois la lettre A dans le mot Apprenti"); // J'affiche le nombre de fois que count a était incrémentée
+
+            //exo 04 part 2 
+            //int count = 0;
+            //void CompterLettreA(string chaine)
+            //{
+            //     count = chaine.Split('a') .Length - 1 + chaine.Split('A').Length -1; 
+            //    }
+            //CompterLettreA("chainA");
+            //Console.WriteLine($"Il y a {count} fois la lettre A dans le mot chainA"); 
+
+
+
 
         }
     }
-}
+    }
