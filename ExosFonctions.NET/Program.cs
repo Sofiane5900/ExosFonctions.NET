@@ -17,11 +17,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
 
             // exo 02
-            //void Soustraction(int nombre_a, int nombre_b)
-            //{
-            //    Console.WriteLine(nombre_a - nombre_b);
-            //}
-            //Soustraction(20, 50);
+            void Soustraction(int nombre_a, int nombre_b)
+            {
+                Console.WriteLine($"Je soustrais {nombre_a} et {nombre_b} = {nombre_a - nombre_b}");
+            }
+            Soustraction(20, 50);
 
 
 
