@@ -8,12 +8,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
 
             // exo 01
-            // void AffichagePrenom(string prenom, string nom)
-            //{
-            //    Console.WriteLine(prenom + nom);
-            //  }
+            void AffichagePrenom(string prenom, string nom)
+            {
+                Console.WriteLine(prenom + " " + nom);
+            }
 
-            //AffichagePrenom("Sofiane", "I");
+            AffichagePrenom("Sofiane", "I");
 
 
 
